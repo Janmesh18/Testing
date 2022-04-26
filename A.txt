@@ -1,0 +1,33 @@
+Exp1
+cd foldername
+git init
+ls -a
+*add new file 1.txt in folder
+git add 1.txt
+git config user.email "g"
+git commit -m "1st commit"
+*change content in "1.txt"
+git add 1.txt
+git commit -m "message"
+git status
+git log
+// adding new branch
+git branch B1
+git checkout B2
+git add 2.txt
+git commit -m "msg"
+git checkout master
+git merge B1
+Exp2
+git remote add origin "link"
+pit push --set-upstream origin master
+Exp3
+sudo apt-get install docker.io
+docker pull ubuntu
+docker run -it ubuntu
+docker ps
+// copy cont id
+docker exec - it Cid bash
+exit
+docker stop
+docker ps
